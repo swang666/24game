@@ -74,6 +74,8 @@ class Game():
         except:
             message = "Invalid formula, checking typing"
         alert.setText(message)
+        alert.setWindowTitle('24 game')
+        alert.setWindowIcon(QtGui.QIcon("title.jpg"))
         alert.exec()
 
     def create_answer_box(self):
@@ -97,7 +99,7 @@ class Game():
         except:
             out = "Something wrong happened"
         self.answer_field.setText(out)
-        
+
 if __name__ == "__main__":
     game = Game()
     game.window.show()
