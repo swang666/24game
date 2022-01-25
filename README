@@ -1,0 +1,5 @@
+SETUP:
+pip install pyqt5
+
+RUN:
+python 24game.py
