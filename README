@@ -1,5 +1,1 @@
-SETUP:
-pip install pyqt5
-
-RUN:
-python 24game.py
+run target/24game/24game.exe to play
